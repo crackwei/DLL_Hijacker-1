@@ -1,3 +1,4 @@
+
 #coding=utf-8
 #
 # Dll Hijacker
@@ -28,6 +29,7 @@ def main():
 def generate(exportTable):
     segments = r"//Generate by DLLHijacker.py\
 \
+#include \"stdafx.h\"\
 #include <Windows.h>\
 \
 DEFINE_DLL_EXPORT_FUNC\
